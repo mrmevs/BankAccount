@@ -11,7 +11,7 @@ public class BankAccount
    */
    public BankAccount()
    {
-      balance = 0;
+      
    }
    
    /**
@@ -21,7 +21,7 @@ public class BankAccount
    
    public BankAccount(double intialBalance)
    {
-      balance = initialBalance;
+      
    }
    
    /**
@@ -31,8 +31,7 @@ public class BankAccount
    
    public void deposit(double amount)
    {
-      double newBalance = balance + amount;
-      balance = newBalance;
+      
    }
    
    /**
@@ -42,8 +41,7 @@ public class BankAccount
    
    public void withdraw(double amount)
    {
-      double newBalance = balance - amount;
-      balance = newBalance;
+      
    }
    
    /**
@@ -53,6 +51,6 @@ public class BankAccount
    
    public double getBalance()
    {
-      return balance;
+      
    }
 }
